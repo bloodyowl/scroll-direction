@@ -12,7 +12,7 @@ $ npm install bloody-scroll-direction
 ## require
 
 ```javascript
-var scrollDir = require(" bloody-scroll-direction")
+var scrollDir = require("bloody-scroll-direction")
 ```
 
 ## api
