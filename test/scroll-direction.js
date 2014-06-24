@@ -11,7 +11,7 @@ tape("scroll-direction", function(test){
   setTimeout(function(){
     window.scrollTo(0, 0)
     setTimeout(function(){
-      s.listen("change", function(data){
+      s.on("change", function(data){
         test.equal(data.direction, 1)
         test.equal(data.offset, 300)
         test.end()
@@ -26,7 +26,7 @@ tape("scroll-direction", function(test){
   var s = scrollDir.create()
   window.scrollTo(0, 700)
   setTimeout(function(){
-    s.listen("change", function(data){
+    s.on("change", function(data){
       test.equal(data.direction, -1)
       test.equal(data.offset, 300)
       test.end()

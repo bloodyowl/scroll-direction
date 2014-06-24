@@ -37,7 +37,7 @@ module.exports = events.extend({
     if(direction == this._direction) {
       return
     }
-    this.fireSync("change", {direction:direction, offset:offset})
+    this.emit("change", {direction:direction, offset:offset})
     this._direction = direction
   }
 })

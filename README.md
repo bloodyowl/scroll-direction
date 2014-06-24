@@ -25,7 +25,7 @@ creates a `scrollDir` instance and starts listening to the scroll event.
 
 stops listening to the scroll event.
 
-### `scrollDir.listen("change", callback)`
+### `scrollDir.on("change", callback)`
 
 let `callback` be notified when the scroll direction changes.
 

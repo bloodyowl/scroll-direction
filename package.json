@@ -1,6 +1,6 @@
 {
   "name": "bloody-scroll-direction",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "gets scroll direction and notifies on change",
   "main": "index.js",
   "scripts": {
@@ -33,6 +33,6 @@
     "tape": "^2.13.2"
   },
   "dependencies": {
-    "bloody-events": "^0.2.2"
+    "bloody-events": "^1.2.0"
   }
 }
